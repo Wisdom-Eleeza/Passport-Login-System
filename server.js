@@ -4,7 +4,7 @@ const app = express();
 const bcrypt = require('bcrypt')
 
 const users = [] //this variable is created to save the info since we are not connecting to database
-//Inorder to use ejs syntax, we need to tell the server
+//In order to use ejs syntax, we need to tell the server
 app.set('view-engine', 'ejs')
 
 app.use(express.urlencoded({ extended: false }))
